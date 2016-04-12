@@ -272,3 +272,29 @@ float: left;
   color: #d51;
   text-decoration: none;
 }
+
+.enlace-ampliar-evento {
+   color: #d51;
+  text-decoration: none; 
+}
+
+.evento {
+  padding: 30px;
+}
+.mapa {
+  padding: 20px;
+}
+#mapa{
+  height: 250px;
+  width: 350px;
+}
+#contenedor-eventos {
+  float: left;
+  width: 70%;
+}
+
+.datos {
+  float: left;
+  padding: 20px;
+  line-height: 40px;
+}
