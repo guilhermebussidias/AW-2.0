@@ -17,6 +17,7 @@
           <input class="input-form" type="password" name="contrasena"><br><br>
           <a class="boton-form" href="#">Iniciar</a>
           <a class="boton-form" href="#">Cerrar</a>
+          <a class="boton-form" href="index-admin.html">Admin</a>
         </form>
       </div>
     </div>
@@ -31,22 +32,25 @@
           <input class="input-form" type="password" name="contrasena"><br><br>
           <a class="boton-form" href="#">Enviar</a>
           <a class="boton-form" href="#">Cerrar</a>
+          <a class="boton-form" href="index-admin.html">Admin</a>
         </form>
       </div>
     </div>
     <div id="contenedor">
       <div id="sesion">
-        <!--<ul>
+        <!--
+        <ul>
           <li><a href="#inicio-sesion">Inicio sesión</a></li>
           <li><a href="#registrar">Registrarse</a></li>
-        </ul>-->
+        </ul>
+        -->
         <p id="bienvenido">Bienvenido, <span id="nombre-usuario">Administrador</span></p>
       </div>
       <div class="clear"></div>
-      <div id="cabecera">
+      <header id="cabecera">
         <div id="logo"><img src="img/logo.png" alt="logo" /></div>
-        <div id="navegacion">
-          <ul id="menu">
+        <nav id="navegacion">
+          <ul class="menu">
             <li><a href="#">Servicios</a>
                 <ul>
                   <li><a href="#">Servicio 1</a></li>
@@ -59,8 +63,8 @@
             <li><a href="#">De Interés</a></li>
             <li><a href="#">Conócenos</a></li>
           </ul>
-        </div>
-      </div>
+        </nav>
+      </header>
       <div class="clear"></div>
         <div id="slide">
           <ul>
@@ -72,7 +76,7 @@
         </div>
       <div class="clear"></div>
       <div id="contenido">
-        <div id="articulo">
+        <div id="contenedor-articulos">
           <div class="noticia">
             <h3>Noticia 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -91,16 +95,16 @@
           </div>
         </div>
       </div>
-      <div id="right-sidebar">
+      <aside id="right-sidebar">
         <div class="pienso">
           <img src="img/pienso1.jpg" alt="pienso">
         </div>
         <div class="pienso">
           <img src="img/pienso2.jpg" alt="pienso">
         </div>
-      </div>
+      </aside>
       <div class="clear"></div>
-      <div id="pie"><p>AllDogs.com</p></div>
+      <footer id="pie"><p>AllDogs.com</p></footer>
     </div>
   </body>
 </html>
