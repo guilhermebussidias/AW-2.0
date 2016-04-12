@@ -219,30 +219,6 @@ a.boton-form:hover {
   float: left;
   width: 70%;
 }
-#contenedor-conocenos-R  {
-  color: #37485C;
-  padding-bottom: 16px;
-  float: right;
-}
-
-#contenedor-conocenos img {
-  max-height: 150px;
-  height: auto;
-  padding: 30px;
-}
-
-
-.img-r{
-float: right;
-}
-.img-l{
-float: left;
-}
-.noticia-R {
-  padding: 30px;
-  float: right;
-}
-
 .noticia {
   padding: 30px;
 }
