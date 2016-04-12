@@ -1,0 +1,14 @@
+#bienvenido {
+  padding-right: 20px;
+  color: #778089;
+}
+#nombre-usuario {
+  font-weight: bold;
+}
+.editar-noticia {
+  padding: 8px;
+  text-align: right;
+}
+.editar-noticia-enlace {
+  color: cornflowerblue;
+}
