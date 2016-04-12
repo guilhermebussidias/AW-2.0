@@ -205,8 +205,19 @@ a.boton-form:hover {
   color: #37485C;
   padding-bottom: 10px;
 }
+#contenedor-conocenos h1 {
+  color: #37485C;
+  padding-bottom: 16px;
+}
 #contenedor-articulos p{
   color: #778089;
+}
+#contenedor-conocenos p{
+  color: #778089;
+}
+#contenedor-conocenos {
+  float: left;
+  width: 70%;
 }
 .noticia {
   padding: 30px;

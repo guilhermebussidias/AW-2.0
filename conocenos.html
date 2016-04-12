@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <title>AllDogs</title>
+  </head>
+  <body>
+    <div class="modal" id="inicio-sesion">
+      <div class="modal-container">
+        <form action="#">
+          <p>Usuario</p>
+          <input class="input-form" type="text" name="usuario"><br>
+          <p>Contraseña</p>
+          <input class="input-form" type="password" name="contrasena"><br><br>
+          <a class="boton-form" href="#">Iniciar</a>
+          <a class="boton-form" href="#">Cerrar</a>
+          <a class="boton-form" href="index-admin.html">Admin</a>
+          <a class="boton-form" href="index-gestor.html">Gestor</a>
+        </form>
+      </div>
+    </div>
+    <div class="modal" id="registrar">
+      <div class="modal-container">
+        <form action="#">
+          <p>Usuario</p>
+          <input class="input-form" type="text" name="usuario"><br>
+          <p>Email</p>
+          <input class="input-form" type="email" name="email"><br>
+          <p>Contraseña</p>
+          <input class="input-form" type="password" name="contrasena"><br><br>
+          <a class="boton-form" href="#">Enviar</a>
+          <a class="boton-form" href="#">Cerrar</a>
+          <a class="boton-form" href="index-admin.html">Admin</a>
+        </form>
+      </div>
+    </div>
+    <div id="contenedor">
+      <div id="sesion">
+        <ul>
+          <li><a href="#inicio-sesion">Inicio sesión</a></li>
+          <li><a href="#registrar">Registrarse</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <header id="cabecera">
+        <div id="logo">
+          <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+        </div>
+        <nav id="navegacion">
+          <ul class="menu">
+            <li><a href="servicios.html">Servicios</a>
+                <ul>
+                  <li><a href="veterinarios.html">Veterinarios</a></li>
+                  <li><a href="residencias.html">Residencias</a></li>
+                  <li><a href="adiestradores.html">Adiestradores</a></li>
+                  <li><a href="peluquerias.html">Peluquerias</a></li>
+                  <li><a href="paseadores.html">Paseadores</a></li>
+                  <li><a href="adopcion.html">Adopción</a></li>
+                </ul>
+            </li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="deinteres.html">De Interés</a></li>
+            <li><a href="conocenos.html">Conócenos</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="clear"></div>
+        <div id="slide">
+          <ul>
+            <li><img src="img/slide1.jpg" alt="slide"></li>
+            <li><img src="img/slide2.jpg" alt="slide"></li>
+            <li><img src="img/slide3.jpg" alt="slide"></li>
+            <li><img src="img/slide4.jpg" alt="slide"></li>
+          </ul>
+        </div>
+      <div class="clear"></div>
+      <div id="contenido">
+        
+		<div id="contenedor-conocenos">
+          <div class="noticia">
+            <h1>Quiénes somos</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consectetur quas, beatae. Vel ea, cupiditate quo eos quos cumque
+              voluptate repudiandae tempora ex laborum, incidunt sequi id,
+              quam veniam eveniet minima.</p>
+          </div>
+		  <div class="noticia">
+          <h1>Nuestra motivación</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+			Aenean commodo ligula eget dolor. Aenean massa. 
+			Cum sociis natoque penatibus et magnis dis parturient montes,
+			nascetur ridiculus mus. Donec quam felis, ultricies nec, 
+			pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+          </div>
+		  <div class="noticia">
+            <h1>Como contactar con nosotros</h1>
+            <p>
+			In enim justo <br>
+			  rhoncus ut <br>
+			  imperdiet a <br>
+			  +34 012 345 678
+			</p>
+			</div>
+        </div>
+      </div>
+      <aside id="right-sidebar">
+        <div class="pienso">
+          <img src="img/pienso1.jpg" alt="pienso">
+        </div>
+        <div class="pienso">
+          <img src="img/pienso2.jpg" alt="pienso">
+        </div>
+      </aside>
+      <div class="clear"></div>
+      <footer id="pie"><p>AllDogs.com</p></footer>
+    </div>
+  </body>
+</html>
