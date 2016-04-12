@@ -205,10 +205,12 @@ a.boton-form:hover {
   color: #37485C;
   padding-bottom: 10px;
 }
+
 #contenedor-conocenos h3 {
    color: #d51;
   padding-bottom: 10px;
 }
+
 #contenedor-articulos p{
   color: #778089;
 }
@@ -258,6 +260,10 @@ float: left;
   padding: 20px;
 }
 
+ #contenedor-conocenos h1 {
+   color:#7F7F7F;
+}
+
 #pie {
   text-align: center;
   background-color: #F8F9F9;
@@ -281,6 +287,8 @@ float: left;
 .evento {
   padding: 30px;
 }
+
+
 .mapa {
   padding: 20px;
 }
