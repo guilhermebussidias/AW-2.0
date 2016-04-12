@@ -12,3 +12,21 @@
 .editar-noticia-enlace {
   color: cornflowerblue;
 }
+#edicion-articulo {
+  text-align: center;
+}
+#input-editor {
+  font-size: 1em;
+  width: 900px;
+  height: 400px;
+  border: 2px solid gray;
+}
+#boton-editar {
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-left: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #7F7F7F;
+  color: white;
+}

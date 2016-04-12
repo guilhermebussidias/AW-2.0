@@ -19,7 +19,7 @@ ul{
 }
 
 #contenedor {
-  width: 900px;
+  width: 1000px;
   margin: auto;
   background-color: #fff;
   /* Sombras a izquierda y derecha */
@@ -112,7 +112,7 @@ ul{
 }
 #slide img {
   width: 100%;
-  max-height: 400px;
+  max-height: 350px;
   object-fit: cover; /* Rellena la foto con el div, respetando ratio y si hace falta recorta la img */
 }
 #slide ul {
