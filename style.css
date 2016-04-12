@@ -81,7 +81,7 @@ ul{
 .menu {
   position: absolute; /* Para poder utilizar el z-index */
   padding-top: 20px;
-  padding-left: 10px;
+  padding-left: 35px;
 }
 .menu li>a{
   color: #7F7F7F;
