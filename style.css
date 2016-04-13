@@ -282,7 +282,7 @@ float: left;
 
 .enlace-ampliar-evento {
    color: #d51;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .evento {
@@ -306,4 +306,24 @@ float: left;
   float: left;
   padding: 20px;
   line-height: 40px;
+}
+
+.comentarios {
+   padding: 30px;
+ }
+.comentarios p {
+  padding: 5px;
+}
+.comentarios textarea {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.boton-enviar-comentario {
+  font-size: 1.1em;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #7F7F7F;
+  color: white;
+  margin: 10px 0;
 }
