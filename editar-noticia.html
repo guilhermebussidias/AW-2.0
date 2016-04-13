@@ -32,16 +32,19 @@
           <input class="input-form" type="password" name="contrasena"><br><br>
           <a class="boton-form" href="#">Enviar</a>
           <a class="boton-form" href="#">Cerrar</a>
+          <a class="boton-form" href="index-admin.html">Admin</a>
         </form>
       </div>
     </div>
     <div id="contenedor">
       <div id="sesion">
-      <!--  <ul>
+        <!--
+        <ul>
           <li><a href="#inicio-sesion">Inicio sesión</a></li>
           <li><a href="#registrar">Registrarse</a></li>
-        </ul> -->
-      <p id="bienvenido">Bienvenido, <span id="nombre-usuario">Gestor</span></p>
+        </ul>
+        -->
+        <p id="bienvenido">Bienvenido, <span id="nombre-usuario">Gestor</span></p>
       </div>
       <div class="clear"></div>
       <header id="cabecera">
@@ -68,20 +71,22 @@
         </nav>
       </header>
       <div class="clear"></div>
-      <div id="slide">
-        <ul>
-          <li><img src="img/slide1.jpg" alt="slide"></li>
-          <li><img src="img/slide2.jpg" alt="slide"></li>
-          <li><img src="img/slide3.jpg" alt="slide"></li>
-          <li><img src="img/slide4.jpg" alt="slide"></li>
-        </ul>
-      </div>
       <div id="contenido">
-        <div id="articulo">
+        <div id="edicion-articulo" class="edicion-noticia-gestor">
+          <form action="editar-noticia-admin.html" class="inputs">
+            <!--<textarea name="titulo" id="titulo-editor">Artículo 1</textarea>-->
+            <label id="etiqueta-titulo">Listado de noticias</label><br>
+            <select name="noticias" id="listado-noticias">
+              <option value="noticia1">Noticia 1</option>
+              <option value="noticia2">Noticia 2</option>
+            </select>
+            <div class="clear"></div>
+            <input type="submit" value="Editar" id="boton-editar">
+          </form>
         </div>
       </div>
       <div class="clear"></div>
-      <div id="pie"><p>AllDogs.com</p></div>
+      <footer id="pie"><p>AllDogs.com</p></footer>
     </div>
   </body>
 </html>
