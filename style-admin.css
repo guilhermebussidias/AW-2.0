@@ -5,6 +5,9 @@
 #nombre-usuario {
   font-weight: bold;
 }
+#nombre-inicio-sesion {
+  float: right;
+}
 .editar-noticia {
   padding: 8px;
   text-align: right;
