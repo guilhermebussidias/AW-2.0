@@ -40,3 +40,16 @@
 .inputs {
   font-size: 1.1em;
 }
+/*=======GESTOR===========*/
+#listado-noticias {
+  margin: 15px 0;
+  font-size: 0.9em;
+  width: 200px;
+}
+.edicion-noticia-gestor {
+  padding: 50px;
+}
+#etiqueta-titulo {
+  font-size: 1.1em;
+  color: #37485C;
+}
