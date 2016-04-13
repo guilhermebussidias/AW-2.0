@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style-admin.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <title>AllDogs</title>
   </head>
@@ -18,7 +19,7 @@
           <a class="boton-form" href="#">Cerrar</a>
           <a class="boton-form" href="index-admin.html">Admin</a>
           <a class="boton-form" href="index-gestor.html">Gestor</a>
-          <a class="boton-form" href="index-usuario.html">Usuario</a>
+          <a class="boton-form" href="index-usuario.html">Gestor</a>
         </form>
       </div>
     </div>
@@ -43,10 +44,9 @@
           <a href="#"><img src="img/facebook-64.png" alt="facebook"></a>
           <a href="#"><img src="img/twitter-64.png" alt="twitter"></a>
         </div>
-        <ul>
-          <li><a href="#inicio-sesion">Inicio sesión</a></li>
-          <li><a href="#registrar">Registrarse</a></li>
-        </ul>
+        <div id="nombre-inicio-sesion">
+          <p id="bienvenido">Bienvenido, <span id="nombre-usuario">Usuario</span></p>
+        </div>
       </div>
       <div class="clear"></div>
       <header id="cabecera">
@@ -85,7 +85,7 @@
       <div id="contenido">
         <div id="contenedor-articulos">
           <div class="noticia">
-            <h3><a href="ampliar-noticia.html" class="enlace-ampliar-noticia">Noticia 1</a></h3>
+            <h3><a href="ampliar-noticia-usuario.html" class="enlace-ampliar-noticia">Noticia 1</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Consectetur quas, beatae. Vel ea, cupiditate quo eos quos cumque
               voluptate repudiandae tempora ex laborum, incidunt sequi id,
@@ -105,7 +105,7 @@
             </div>
           </div>
           <div class="noticia">
-            <h3><a href="ampliar-noticia.html" class="enlace-ampliar-noticia">Noticia 2</a></h3>
+            <h3><a href="ampliar-noticia-usuario.html" class="enlace-ampliar-noticia">Noticia 2</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Consectetur quas, beatae. Vel ea, cupiditate quo eos quos cumque
               voluptate repudiandae tempora ex laborum, incidunt sequi id,

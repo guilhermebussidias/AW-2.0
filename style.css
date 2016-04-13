@@ -168,7 +168,7 @@ ul{
   transform: translate(-50%,-200%);
   padding: 60px;
   border-radius: 5px;
-  max-width: 400px;
+  max-width: 500px;
   -webkit-transition: transform 200ms ease-out;
   -o-transition: transform 200ms ease-out;
   transition: transform 200ms ease-out;
@@ -326,8 +326,6 @@ float: left;
   padding: 20px;
   line-height: 40px;
 }
-
-<<<<<<< HEAD
 
 /*SERVICIOS*/
 
