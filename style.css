@@ -388,7 +388,9 @@ float: left;
   height: 24px;
   width: 24px;
 }
-
+.estrellas > a:hover ~ a {
+background-image: url('img/patapuntuacionVacia.png');  
+}
 table{
   padding-top: 20px;
   padding-left: 20px;
