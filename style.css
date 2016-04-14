@@ -329,6 +329,11 @@ float: left;
 
 /*SERVICIOS*/
 
+.titulos {
+  height: 140px;
+  width: 210px;
+}
+
 .tituloServicio{
   padding-top: 20px;
   color: #A68337;

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style-admin.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <title>AllDogs</title>
+  </head>
+  <body>
+    <div class="modal" id="inicio-sesion">
+      <div class="modal-container">
+        <form action="#">
+          <p>Usuario</p>
+          <input class="input-form" type="text" name="usuario"><br>
+          <p>Contraseña</p>
+          <input class="input-form" type="password" name="contrasena"><br><br>
+          <a class="boton-form" href="#">Iniciar</a>
+          <a class="boton-form" href="#">Cerrar</a>
+          <a class="boton-form" href="index-admin.html">Admin</a>
+          <a class="boton-form" href="index-gestor.html">Gestor</a>
+          <a class="boton-form" href="index-usuario.html">Usuario</a>
+        </form>
+      </div>
+    </div>
+    <div class="modal" id="registrar">
+      <div class="modal-container">
+        <form action="#">
+          <p>Usuario</p>
+          <input class="input-form" type="text" name="usuario"><br>
+          <p>Email</p>
+          <input class="input-form" type="email" name="email"><br>
+          <p>Contraseña</p>
+          <input class="input-form" type="password" name="contrasena"><br><br>
+          <a class="boton-form" href="#">Enviar</a>
+          <a class="boton-form" href="#">Cerrar</a>
+          <a class="boton-form" href="index-admin.html">Admin</a>
+        </form>
+      </div>
+    </div>
+    <div id="contenedor">
+      <div id="sesion">
+        <div id="social">
+          <a href="#"><img src="img/facebook-64.png" alt="facebook"></a>
+          <a href="#"><img src="img/twitter-64.png" alt="twitter"></a>
+        </div>
+        <div id="nombre-inicio-sesion">
+          <p id="bienvenido">Bienvenido, <span id="nombre-usuario">Administrador</span></p>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <header id="cabecera">
+        <div id="logo">
+          <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+        </div>
+        <nav id="navegacion">
+          <ul class="menu">
+            <li><a href="servicios-admin.html">Servicios</a>
+                <ul>
+                  <li><a href="editar-servicio-especifico-admin.html">Veterinarios</a></li>
+                  <li><a href="editar-servicio-especifico-admin.html">Residencias</a></li>
+                  <li><a href="editar-servicio-especifico-admin.html">Adiestradores</a></li>
+                  <li><a href="editar-servicio-especifico-admin.html">Peluquerias</a></li>
+                  <li><a href="editar-servicio-especifico-admin.html">Paseadores</a></li>
+                  <li><a href="editar-servicio-especifico-admin.html">Adopción</a></li>
+                </ul>
+            </li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="deinteres.html">De Interés</a></li>
+            <li><a href="conocenos.html">Conócenos</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="clear"></div>
+        <div id="slide">
+          <ul>
+            <li><img src="img/slide1.jpg" alt="slide"></li>
+            <li><img src="img/slide2.jpg" alt="slide"></li>
+            <li><img src="img/slide3.jpg" alt="slide"></li>
+            <li><img src="img/slide4.jpg" alt="slide"></li>
+          </ul>
+        </div>
+      <div class="clear"></div>
+      <div id="contenido">
+         <h3 class="tituloServicio">Nombre servicio</h3>
+        <table>
+          <tr>
+            <td rowspan="4"><img src="img/peluqueria1.jpg" class="imagenServicio" alt="imagen empresa"></td>
+            <td class="empresaServicio">Nombre empresa </td>
+            <td rowspan="2">  
+              <div class="estrellas">
+              <a href="#" data-value="1" title="Votar con 1 estrellas"></a>
+              <a href="#" data-value="2" title="Votar con 2 estrellas"></a>
+              <a href="#" data-value="3" title="Votar con 3 estrellas"></a>
+              <a href="#" data-value="4" title="Votar con 4 estrellas"></a>
+              <a href="#" data-value="5" title="Votar con 5 estrellas"></a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="direccionServicio">Calle Fernan Gonzalez, 98, Madrid</td>
+          </tr>
+          <tr>
+            <td class="telefonoServicio">914 996 345</td>
+            <td><a class="editar-noticia-enlace" href="editar-servicio-admin.html">Editar servicio</a></td>
+          </tr>
+          <tr>
+            <td class="descripcionServicio">Descripcion de la empresa. Vel ea, cupiditate quo eos quos cumque
+              voluptate repudiandae tempora ex laborum, incidunt sequi id,
+              quam veniam eveniet minima</td>
+            <td> <a href="" target= "_blank">Ir a la web</a></td>
+          </tr>
+            <td rowspan="4"><img src="img/peluqueria2.jpg" class="imagenServicio" alt="imagen empresa"></td>
+            <td class="empresaServicio">Nombre empresa</td>
+            <td rowspan="2">
+              <div class="estrellas">
+              <a href="#" data-value="1" title="Votar con 1 estrellas"></a>
+              <a href="#" data-value="2" title="Votar con 2 estrellas"></a>
+              <a href="#" data-value="3" title="Votar con 3 estrellas"></a>
+              <a href="#" data-value="4" title="Votar con 4 estrellas"></a>
+              <a href="#" data-value="5" title="Votar con 5 estrellas"></a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="direccionServicio">Direccion de la empresa, Canillas, 133, 28043</td>
+          </tr>
+          <tr>
+            <td class="telefonoServicio">914 896 666</td>
+            <td><a class="editar-noticia-enlace" href="editar-servicio-admin.html">Editar servicio</a></td>
+          </tr>
+          <tr>
+            <td class="descripcionServicio">Descripcion de la empresa. Vel ea, cupiditate quo eos quos cumque
+              voluptate repudiandae tempora ex laborum, incidunt sequi id,
+              quam veniam eveniet minima</td>
+            <td> <a href="" target= "_blank">Ir a la web</a></td> 
+          </tr>
+            <td rowspan="4"><img src="img/peluqueria3.jpg" class="imagenServicio" alt="imagen empresa"></td>
+            <td class="empresaServicio">Nombre empresa</td>
+            <td rowspan="2">
+              <div class="estrellas">
+              <a href="#" data-value="1" title="Votar con 1 estrellas"></a>
+              <a href="#" data-value="2" title="Votar con 2 estrellas"></a>
+              <a href="#" data-value="3" title="Votar con 3 estrellas"></a>
+              <a href="#" data-value="4" title="Votar con 4 estrellas"></a>
+              <a href="#" data-value="5" title="Votar con 5 estrellas"></a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="direccionServicio">Direccion de la empresa,Calle Calanda, 1</td>
+          </tr>
+          <tr>
+            <td class="telefonoServicio">914 653 005</td>
+            <td><a class="editar-noticia-enlace" href="editar-servicio-admin.html">Editar servicio</a></td>
+          </tr>
+          <tr>
+            <td class="descripcionServicio">Descripcion de la empresa. Vel ea, cupiditate quo eos quos cumque
+              voluptate repudiandae tempora ex laborum, incidunt sequi id,
+              quam veniam eveniet minima</td>
+            <td> <a href="" target= "_blank">Ir a la web</a></td>               
+          </tr>
+        </table>
+      </div>
+      <aside id="right-sidebar">
+        <div class="pienso">
+          <img src="img/pienso1.jpg" alt="pienso">
+        </div>
+        <div class="pienso">
+          <img src="img/pienso2.jpg" alt="pienso">
+        </div>
+      </aside>
+      <div class="clear"></div>
+      <footer id="pie"><p>AllDogs.com</p></footer>
+    </div>
+  </body>
+</html>
